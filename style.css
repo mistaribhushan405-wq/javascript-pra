@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ce7070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+#name,
+#email,
+#password,
+#subtn {
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.errpr {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
